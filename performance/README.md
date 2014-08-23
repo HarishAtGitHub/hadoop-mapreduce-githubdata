@@ -17,7 +17,7 @@
 
 
 
-** Job Details :**
+**Job Details :**
 
 | Machines       | No of Map tasks at a time  | No of Reduce Taks at a time |
 | ------------- |:-------------:| -----:|

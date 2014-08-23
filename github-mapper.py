@@ -8,8 +8,8 @@ from pygments.lexers import get_lexer_for_filename
 import re
 import sys
 
-username = 'HarishAtGitHub'
-password = 'onlygitisallowed'
+username = 'mygithubusernmae'
+password = 'mygithubpassword'
 
 for line in sys.stdin:
     line_stripped = line.strip()

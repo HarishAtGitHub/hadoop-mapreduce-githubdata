@@ -15,4 +15,4 @@ This holds the map reduce jobs for the analysis done on github data
 
 **Command:**
 
-bin/hadoop jar contrib/streaming/hadoop-streaming-1.0.3.jar -file <mapper-file> -mapper <mapper-file> -file <reducer-file> -reducer <reducer-file>  -input <input-file> -output <output-dfs-directory>
+bin/hadoop jar contrib/streaming/hadoop-streaming-1.0.3.jar -file {mapper-file} -mapper {mapper-file} -file {reducer-file} -reducer {reducer-file}  -input {input-file} -output {output-dfs-directory}

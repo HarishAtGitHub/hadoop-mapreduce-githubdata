@@ -1,7 +1,7 @@
-Hadoop mapreduce on githubdata
+Hadoop MapReduce on GitHub data
 ---
 
-This holds the map reduce jobs for the analysis done on github data
+This holds the MapReduce jobs for the analysis done on GitHub data
 
 
 
@@ -9,9 +9,9 @@ This holds the map reduce jobs for the analysis done on github data
 
 **Note:**
 
-1. To see the successful job resluts please go into folder by name 'performance'
+1. To see the successful job results please go into folder by name 'performance'
 
-2. The requests.get('http://master:5000/Credentials') in github-mapper.py is done to tackle the API ratelimit of 5000 that github enforces on users. Basicallu I have a rest server(using python flask) running there which serves map jobs with username and password once the API ratelimit is reached .
+2. The requests.get('http://master:5000/Credentials') in github-mapper.py is done to tackle the API rate limit of 5000 that GitHub enforces on users. Basically, I have a rest server(using python flask) running, which does authentication renewal once the API rate limit is reached .
 
 **Command:**
 
